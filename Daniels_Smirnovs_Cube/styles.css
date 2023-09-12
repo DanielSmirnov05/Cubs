@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('space_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(0deg);
+    transition: all 0.5s ease;
+    position: absolute;
+    z-index: 1;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+
+#counter {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fff;
+}
+
